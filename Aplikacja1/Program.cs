@@ -9,7 +9,7 @@ namespace Aplikacja1
 {
     class Program
     {
-        static void Main(string[] args)///123
+        static void Main(string[] args)//123
         {//
             Pozycja p = new Pozycja("B5");
             Pozycja p2 = new Pozycja("D4");
