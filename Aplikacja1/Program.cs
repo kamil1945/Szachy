@@ -9,8 +9,8 @@ namespace Aplikacja1
 {
     class Program
     {
-        static void Main(string[] args)
-        {//
+        static void Main(string[] args)//222
+        {
             Pozycja p = new Pozycja("B5");
             Pozycja p2 = new Pozycja("D4");
             Figura f = new Pionek(p,Kolor.KOLOR_BIALY);
