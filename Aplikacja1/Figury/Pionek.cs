@@ -16,5 +16,9 @@ namespace Aplikacja1.Figury
         {
             return CzyPionowo(nowaPozycja) || CzyPoziomo(nowaPozycja);
         }
+        public virtual void JakasMetoda()
+        {
+            Console.WriteLine("Tekst Pionka");
+        }
     }
 }
