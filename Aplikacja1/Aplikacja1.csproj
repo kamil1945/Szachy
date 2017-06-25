@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Fab.cs" />
     <Compile Include="Figury\Hetman.cs" />
     <Compile Include="Figury\Kolor.cs" />
     <Compile Include="Figury\Goniec.cs" />
@@ -54,6 +55,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="5-zadanie-Figura-Python.txt" />
+    <Content Include="6-zadanie-Figura-Java.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
